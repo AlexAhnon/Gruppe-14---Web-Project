@@ -54,10 +54,14 @@ a:link, a:visited {
 	background-color: black;
 	position: absolute;
 	opacity: 0;
-	transition: opacity 1.5s;
-	-moz-transition: opacity 1.5s;
-	-webkit-transition: opacity 1.5s;
+	transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-webkit-transition: opacity 1s;
 	color: white;
+}
+
+.overlay p {
+	padding: 30px;
 }
 
 #square .one {
