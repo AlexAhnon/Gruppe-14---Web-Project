@@ -1,1 +1,1 @@
-<div id="header">Velkommen til test websiden til gruppe 14</div>
+<a href="index.php"><div id="header">Velkommen til test websiden til gruppe 14</div></a>

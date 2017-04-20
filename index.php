@@ -1,22 +1,3 @@
-<?php
-
-	$port = '8889';
-	$username = 'root';
-	$password = 'root';
-	$database = 'website';
-
-	$connection = new PDO("mysql:host=localhost;dbname={$database};port={$port}", $username, $password);
-
-	$query = $connection->prepare('SELECT * FROM events');
-	$query->execute();
-
-	$events = [];
-
-	while($event = $query->fetch(PDO::FETCH_ASSOC)) {
-		$events[] = $event;
-	}
-?>
-
 <!doctype html>
 
 <html>
@@ -29,10 +10,34 @@
 
 		<div id="square">
 			<div class="row">
-				<div class="block one"></div>
-				<div class="block two"></div>
-				<div class="block three"></div>
-				<div class="block four"></div>
+				<a href="kultur.php">
+					<div class="block one">
+						<div class="overlay">
+							<h1>Kultur</h1>
+						</div>
+					</div>
+				</a>
+				<a href="#">
+					<div class="block two">
+						<div class="overlay">
+							<h1>Butikker</h1>
+						</div>
+					</div>
+				</a>
+				<a href="#">
+					<div class="block three">
+						<div class="overlay">
+							<h1>Helse</h1>
+						</div>
+					</div>
+				</a>
+				<a href="#">
+					<div class="block four">
+						<div class="overlay">
+							<h1>Tjenester</h1>
+						</div>
+					</div>
+				</a>
 			</div>
 		</div>
 		</div>

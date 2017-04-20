@@ -21,15 +21,20 @@ html, body {
 	width: 100%;
 }
 
+a:link, a:visited {
+	color: black;
+	text-decoration: none;
+}
+
 /** Grid egenskaper for forsiden **/
 #square {
 	display: table;
 	width: 100%
-	height: 460px;
+	height: 450px;
 	margin: 0 auto;
 	border: 0px solid #000;
 	overflow: hidden;
-	border-spacing: 20px;
+	border-spacing: 10px;
 }
 
 #square .row {
@@ -38,23 +43,51 @@ html, body {
 
 #square .block {
 	width: 250px;
-	height: 460px;
+	height: 450px;
 	border: 1px solid #000;
 	display: table-cell;
+}
+
+.overlay {
+	width: 250px;
+	height: 450px;
+	background-color: black;
+	position: absolute;
+	opacity: 0;
+	transition: opacity 1.5s;
+	-moz-transition: opacity 1.5s;
+	-webkit-transition: opacity 1.5s;
+	color: white;
 }
 
 #square .one {
 	background-color: red;
 }
 
+#square .one:hover .overlay {
+	opacity: 1;
+}
+
 #square .two {
 	background-color: blue;
+}
+
+#square .two:hover .overlay {
+	opacity: 1;
 }
 
 #square .three {
 	background-color: yellow;
 }
 
+#square .three:hover .overlay {
+	opacity: 1;
+}
+
 #square .four {
 	background-color: green;
+}
+
+#square .four:hover .overlay {
+	opacity: 1;
 }
