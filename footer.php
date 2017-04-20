@@ -1,0 +1,1 @@
+<div id="footer">(c) Copyright Gruppe 14 - 2017</div>
