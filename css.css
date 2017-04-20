@@ -65,33 +65,36 @@ a:link, a:visited {
 }
 
 #square .one {
-	background-color: red;
+	background-image: url("img/kultur.jpg");
+	background-size: cover;
 }
 
 #square .one:hover .overlay {
-	opacity: 1;
+	opacity: 0.8;
 }
 
 #square .two {
-	background-color: blue;
+	background-image: url("img/butikk.jpg");
+	background-size: cover;
 }
 
 #square .two:hover .overlay {
-	opacity: 1;
+	opacity: 0.8;
 }
 
 #square .three {
-	background-color: yellow;
+	background-image: url("img/helse.jpg");
+	background-size: cover;
 }
 
 #square .three:hover .overlay {
-	opacity: 1;
+	opacity: 0.8;
 }
 
 #square .four {
-	background-color: green;
-}
+	background-image: url("img/tjenester.jpg");
+	background-size: cover;}
 
 #square .four:hover .overlay {
-	opacity: 1;
+	opacity: 0.8;
 }
