@@ -22,7 +22,7 @@
 				<a href="#">
 					<div class="block two">
 						<div class="overlay">
-							<h1>Butikker</h1>
+							<h1>Mat & drikke</h1>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id cursus libero. Fusce tincidunt in ligula ac fermentum. Quisque porttitor tellus vulputate diam venenatis malesuada. Ut scelerisque, massa id auctor ullamcorper, purus mauris tincidunt velit, quis varius enim ipsum sed risus. Nunc eget lorem odio. Cras congue nulla orci, eu gravida dolor hendrerit a. In efficitur rhoncus diam, a sagittis enim volutpat vitae.</p>
 						</div>
 					</div>

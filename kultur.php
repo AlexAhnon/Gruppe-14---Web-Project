@@ -1,3 +1,16 @@
+<?php require 'connection.php' ?>
+<!-- Kobler opp mot databasen for å hente all informasjon fra relevant tabell -->
+<?php
+	$query = $connection->prepare('SELECT * FROM kultur_table');
+	$query->execute();
+
+	$events = [];
+
+	while($event = $query->fetch(PDO::FETCH_ASSOC)) {
+		$events[] = $event;
+	}
+?>
+
 <!doctype html>
 
 <html>
@@ -9,36 +22,20 @@
 	<body>
 		<?php require 'header.php' ?>
 
+		<!-- Lager nye kort for hver select -->
+		<?php foreach ($events as $event) { ?>
+				
+		<!-- Start av content -->
 		<div id="content-wrapper">
-			<div class="row">
-				<div class="content">
-					<div class="picture"></div>
-					<h1>Kultur er kult</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id cursus libero. Fusce tincidunt in ligula ac fermentum. Quisque porttitor tellus vulputate diam venenatis malesuada. Ut scelerisque, massa id auctor ullamcorper, purus mauris tincidunt velit, quis varius enim ipsum sed risus. Nunc eget lorem odio. Cras congue nulla orci, eu gravida dolor hendrerit a. In efficitur rhoncus diam, a sagittis enim volutpat vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id cursus libero. Fusce tincidunt in ligula ac fermentum. Quisque porttitor tellus vulputate diam venenatis malesuada. Ut scelerisque, massa id auctor ullamcorper, purus mauris tincidunt velit, quis varius enim ipsum sed risus. Nunc eget lorem odio. Cras congue nulla orci, eu gravida dolor hendrerit a. In efficitur rhoncus diam, a sagittis enim volutpat vitae.</p>
-					<div class="lesmer"><a href="test2.php">Les mer...</a></div>
-				</div>
-				<div class="content">
-					<div class="picture"></div>
-					<h1>Kultur er kult</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id cursus libero. Fusce tincidunt in ligula ac fermentum. Quisque porttitor tellus vulputate diam venenatis malesuada. Ut scelerisque, massa id auctor ullamcorper, purus mauris tincidunt velit, quis varius enim ipsum sed risus. Nunc eget lorem odio. Cras congue nulla orci, eu gravida dolor hendrerit a. In efficitur rhoncus diam, a sagittis enim volutpat vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id cursus libero. Fusce tincidunt in ligula ac fermentum. Quisque porttitor tellus vulputate diam venenatis malesuada. Ut scelerisque, massa id auctor ullamcorper, purus mauris tincidunt velit, quis varius enim ipsum sed risus. Nunc eget lorem odio. Cras congue nulla orci, eu gravida dolor hendrerit a. In efficitur rhoncus diam, a sagittis enim volutpat vitae.</p>
-					<div class="lesmer"><a href="#">Les mer...</a></div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="content">
-					<div class="picture"></div>
-					<h1>Kultur er kult</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id cursus libero. Fusce tincidunt in ligula ac fermentum. Quisque porttitor tellus vulputate diam venenatis malesuada. Ut scelerisque, massa id auctor ullamcorper, purus mauris tincidunt velit, quis varius enim ipsum sed risus. Nunc eget lorem odio. Cras congue nulla orci, eu gravida dolor hendrerit a. In efficitur rhoncus diam, a sagittis enim volutpat vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id cursus libero. Fusce tincidunt in ligula ac fermentum. Quisque porttitor tellus vulputate diam venenatis malesuada. Ut scelerisque, massa id auctor ullamcorper, purus mauris tincidunt velit, quis varius enim ipsum sed risus. Nunc eget lorem odio. Cras congue nulla orci, eu gravida dolor hendrerit a. In efficitur rhoncus diam, a sagittis enim volutpat vitae.</p>
-					<div class="lesmer"><a href="#">Les mer...</a></div>
-				</div>
-				<div class="content">
-					<div class="picture"></div>
-					<h1>Kultur er kult</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id cursus libero. Fusce tincidunt in ligula ac fermentum. Quisque porttitor tellus vulputate diam venenatis malesuada. Ut scelerisque, massa id auctor ullamcorper, purus mauris tincidunt velit, quis varius enim ipsum sed risus. Nunc eget lorem odio. Cras congue nulla orci, eu gravida dolor hendrerit a. In efficitur rhoncus diam, a sagittis enim volutpat vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id cursus libero. Fusce tincidunt in ligula ac fermentum. Quisque porttitor tellus vulputate diam venenatis malesuada. Ut scelerisque, massa id auctor ullamcorper, purus mauris tincidunt velit, quis varius enim ipsum sed risus. Nunc eget lorem odio. Cras congue nulla orci, eu gravida dolor hendrerit a. In efficitur rhoncus diam, a sagittis enim volutpat vitae.</p>
-					<div class="lesmer"><a href="#">Les mer...</a></div>
-				</div>
+			<div class="content">
+				<div class="picture"><img src="<?= $event[image_path] ?>"></div>
+					<h1><?= $event[title] ?></h1>
+					<p><?= $event[infotext] ?></p>
+				<div class="lesmer"><a href="test2.php?id=<?= $event[id] ?>">Les mer...</a></div>
 			</div>
 		</div>
+
+		<?php } ?>
 
 		<?php require 'footer.php' ?>
 	</body>
