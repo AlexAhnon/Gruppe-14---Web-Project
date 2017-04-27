@@ -1,0 +1,73 @@
+/** Grid egenskaper for forsiden **/
+#square {
+	display: table;
+	width: 100%
+	height: 400px;
+	margin: 0 auto;
+	border: 0px solid #000;
+	overflow: hidden;
+	border-spacing: 10px;
+}
+
+#square .row {
+	display: table-row;
+}
+
+#square .block {
+	width: 250px;
+	height: 400px;
+	border: 1px solid #000;
+	display: table-cell;
+}
+
+.overlay {
+	width: 250px;
+	height: 400px;
+	background-color: black;
+	position: absolute;
+	opacity: 0;
+	transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-webkit-transition: opacity 1s;
+	color: white;
+}
+
+.overlay p {
+	padding: 30px;
+}
+
+#square .one {
+	background-image: url("../img/kultur.jpg");
+	background-size: cover;
+}
+
+#square .one:hover .overlay {
+	opacity: 0.8;
+}
+
+#square .two {
+	background-image: url("../img/butikk.jpg");
+	background-size: cover;
+}
+
+#square .two:hover .overlay {
+	opacity: 0.8;
+}
+
+#square .three {
+	background-image: url("../img/helse.jpg");
+	background-size: cover;
+}
+
+#square .three:hover .overlay {
+	opacity: 0.8;
+}
+
+#square .four {
+	background-image: url("../img/tjenester.jpg");
+	background-size: cover;
+}
+
+#square .four:hover .overlay {
+	opacity: 0.8;
+}

@@ -1,0 +1,49 @@
+#content-wrapper {
+	display: table;
+	width: 1200px;
+	margin: 0 auto;
+	border-spacing: 20px 20px;
+}
+
+#content-wrapper .row {
+	display: table-row;
+}
+
+#content-wrapper .content {
+	display: table-cell;
+	width: 550px;
+	height: 400px;
+	overflow: hidden;
+	border: 2px solid black;
+	padding: 10px;
+}
+
+.content .picture {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #000;
+	float: left;
+	background-image: url("../img/kultur.jpg");
+	background-size: cover;
+	margin-right: 20px;
+}
+
+.content .lesmer {
+	width: 100%;
+	height: 32px;
+	text-align: left;
+	font-size: 32px;
+	padding-left: 20px;
+	text-decoration: underline;
+}
+
+.content h1 {
+	margin-right: 20px;
+	margin-bottom: 0px;
+}
+
+.content p {
+	margin-top: 0px;
+	padding: 20px;
+	text-align: left;
+}

@@ -2,8 +2,9 @@
 
 <html>
 	<head>
-		<title>Hjemmeside</title>
-		<link rel="stylesheet" type="text/css" href="css.css">
+		<title>Westerdals: Campus Fjerdingen - Hjemmeside</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
 	</head>
 	<body>
 		<?php require 'header.php' ?>
