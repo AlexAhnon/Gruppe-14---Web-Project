@@ -15,12 +15,12 @@
 	<button>MENY</button>
 	<ul id ="myDropdown" class="dropdown-menu">
 		<li><a href="index.php">Hjem</a></li>
-		<li><a href="#">Kontakt oss</a></li>
+		<li><a href="om-siden.php">Om siden</a></li>
 		<li><a href="http://westerdals.no/">Westerdals</a></li>
-		<li><a href="kultur.php">Nærområder: Kultur</a></li>
-		<li><a href="Nærområder: Kultur">Nærområder: Butikker</a></li>
-		<li><a href="#">Nærområder: Helse</a></li>
-		<li><a href="#">Nærområder: Tjenester</a></li>
+		<li><a href="kultur.php">Kultur</a></li>
+		<li><a href="Nærområder: Kultur">Mat & drikke</a></li>
+		<li><a href="#">Helse</a></li>
+		<li><a href="#">Tjenester</a></li>
 	</ul>
 </div>
 

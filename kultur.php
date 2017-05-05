@@ -31,7 +31,7 @@
 				<div class="picture"><img src="<?= $event[image_path] ?>"></div>
 					<h1><?= $event[title] ?></h1>
 					<p><?= $event[infotext] ?></p>
-				<div class="lesmer"><a href="test2.php?id=<?= $event[id] ?>">Les mer...</a></div>
+				<div class="lesmer"><a href="kultur-side.php?id=<?= $event[id] ?>">Les mer...</a></div>
 			</div>
 		</div>
 
