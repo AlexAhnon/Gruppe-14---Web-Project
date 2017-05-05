@@ -1,3 +1,4 @@
+/** index.css er designet til hoved siden. Inneholder firkantene med bilder man ser og overlay animasjonen. **/
 /** Grid egenskaper for forsiden **/
 #square {
 	display: table;
@@ -18,8 +19,23 @@
 	height: 400px;
 	border: 1px solid #000;
 	display: table-cell;
+	position: relative;
 }
 
+#square .block h1 {
+	position: absolute;
+	width: 225px;
+	height: 40px;
+	line-height: 40px;
+	margin: auto;
+	margin-top: 20px;
+	left: 10px;
+	color: white;
+	border: 2px solid white;
+	background-color: black;
+}
+
+/** Overlay egenskaper når man hoverer over en square **/
 .overlay {
 	width: 250px;
 	height: 400px;
@@ -32,10 +48,23 @@
 	color: white;
 }
 
+/** Tekst wrapping til overlay **/
 .overlay p {
+	padding-top: 0px;
+	margin-top: -20px;
 	padding: 30px;
 }
 
+/** Egenskaper til bildet i overlay **/
+.overlay img {
+	padding: 5px;
+	padding-top: 80px;
+	padding-bottom: 0px;
+	width: 100px;
+	height: 100px;
+}
+
+/** Individuelle animasjoner og bakgrunnsbilder for div'ene **/
 #square .one {
 	background-image: url("../img/kultur.jpg");
 	background-size: cover;

@@ -1,17 +1,13 @@
+/** Google font **/
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+/** Main.css er delt med alle sider på nettsiden og involverer header, content, navigasjon og footer. **/
 html, body {
-	font-family: sans-serif;
-	font-size: 14px;
+    font-family: 'source sans pro';
+	font-size: 16px;
 	text-align: center;
 	background-color: #fff;
-    margin-bottom: 30px;
-    overflow: hidden;
-    height: 100%;
-}
-
-#site-wrapper {
-	width: 100%;
-	height: 1200px;
-	position: relative;
+    height: 95%;
 }
 
 /** Header egenskaper **/
@@ -26,76 +22,45 @@ html, body {
 	background-repeat: no-repeat;
 }
 
-#site-content-wrapper {
-	width: 100%;
-    height: 450px;
-	position: inherit;
-    overflow: auto;
-}
-
 /** Footer egenskaper **/
 #footer {
-    position: fixed;
-    width: 100%;
-    height: 50px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    background-color: #000;
-    color: white;
-    vertical-align: middle;
-}
-
-#footer .buttons-wrapper {
-    position: absolute;
-    right: 0;
-    margin: 0;
-    height: 100%;
-    width: 150px;
-    padding: 0;
-    color: white;
-}
-
-.buttons-wrapper a {
+    position: relative;
     display: inline-block;
-    color: white;
-    width: 40px;
-    height: 48px;
+    margin: auto;
+    width: 1050px;
+    height: 40px;
+    bottom-margin: 10px;
 }
 
-.buttons-wrapper .facebook {
-    background-image: url("../img/face.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+/** Egenskaper til lenkene for sosiale medier **/
+#footer img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+#footer .twitter {
+    right: 70px;
+}
+
+#footer .instagram {
+    right: 35px;
+}
+
+#footer .facebook {
+    right: 0px;
 }
 
 /** Navigasjons meny egenskaper **/
 .dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    margin: 0;
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.dropdown {
     position: absolute;
     display: inline-block;
     margin: 0 auto;
-    margin-left: -650px;
+    margin-left: 400px;
     width: 200px;
 }
 
-.dropdown .dropdown-menu {
+.dropdown-menu {
     position: absolute;
     top: 100%;
     display: none;
@@ -103,20 +68,28 @@ html, body {
     list-style: none;
     width: 100%;
     padding: 0;
+    z-index: 1;
+    left: 40px;
 }
 
-.dropdown:hover .dropdown-menu {
+.show {
     display: block;
 }
 
 /** Button style **/
 .dropdown button {
-    background: #FF6223;
-    color: #FFFFFF;
+    color: black;
     border: none;
+    background-color: white;
+    cursor: pointer;
     margin: 0;
-    padding: 10px;
+    padding: 0px;
     width: 200px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
 }
 
 /** List item style **/
@@ -131,4 +104,42 @@ html, body {
 /** List item hover style **/
 .dropdown a:hover {
     background: #BBBBBB;
+}
+
+/** JavaScript ikon ved siden av meny **/
+.stripes {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    top: -7px;
+    width: 35px;
+    height: 35px
+    background-color: white;
+    margin: 7px 0;
+    right: -45px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 2px;
+    background-color: #333;
+    margin: 7px 0;
+    transition: 0.4s;   
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-7px, 4.5px);
+    transform: rotate(-45deg) translate(-6px, 4.5px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/*rotate last bar*/
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-10px, -10px);
+    transform: rotate(45deg) translate(-8px, -6.5px);
 }

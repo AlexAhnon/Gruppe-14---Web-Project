@@ -13,38 +13,41 @@
 			<div class="row">
 				<a href="kultur.php">
 					<div class="block one">
+						<h1>KULTUR</h1>
 						<div class="overlay">
-							<h1>Kultur</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id cursus libero. Fusce tincidunt in ligula ac fermentum. Quisque porttitor tellus vulputate diam venenatis malesuada. Ut scelerisque, massa id auctor ullamcorper, purus mauris tincidunt velit, quis varius enim ipsum sed risus. Nunc eget lorem odio. Cras congue nulla orci, eu gravida dolor hendrerit a. In efficitur rhoncus diam, a sagittis enim volutpat vitae.</p>
+							<img src="img/kultur-ikon.png">
+							<p>Her vil dere kunne finne informasjon om kulturskatter i nærområdet til Campus Fjerdingen. Alt fra Kunstutstilling til de kuleste barene i Oslo har og by på. </p>
 						</div>
 					</div>
 				</a>
 				<a href="#">
 					<div class="block two">
+						<h1>MAT & DRIKKE</h1>
 						<div class="overlay">
-							<h1>Mat & drikke</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id cursus libero. Fusce tincidunt in ligula ac fermentum. Quisque porttitor tellus vulputate diam venenatis malesuada. Ut scelerisque, massa id auctor ullamcorper, purus mauris tincidunt velit, quis varius enim ipsum sed risus. Nunc eget lorem odio. Cras congue nulla orci, eu gravida dolor hendrerit a. In efficitur rhoncus diam, a sagittis enim volutpat vitae.</p>
+							<img src="img/butikk-ikon.png">
+							<p>Campus Fjerdingen ligger i ett mekka for deg som er glad i mat. Her vil dere kunne finne alt fra matbutikker til de mest hippe restaurantene rundt Campusen.</p>
 						</div>
 					</div>
 				</a>
 				<a href="#">
 					<div class="block three">
+						<h1>HELSE</h1>
 						<div class="overlay">
-							<h1>Helse</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id cursus libero. Fusce tincidunt in ligula ac fermentum. Quisque porttitor tellus vulputate diam venenatis malesuada. Ut scelerisque, massa id auctor ullamcorper, purus mauris tincidunt velit, quis varius enim ipsum sed risus. Nunc eget lorem odio. Cras congue nulla orci, eu gravida dolor hendrerit a. In efficitur rhoncus diam, a sagittis enim volutpat vitae.</p>
+							<img src="img/helse-ikon.png">
+							<p>Området rundt Campus byr på et rikt helsetilbud. Om det skulle være legevakten, om du føler for å løfte vekter eller du bare har lyst til å gjøre Yoga i alle parkene som ligger et steinkast unna Campus.</p>
 						</div>
 					</div>
 				</a>
 				<a href="#">
 					<div class="block four">
+						<h1>TJENESTER</h1>
 						<div class="overlay">
-							<h1>Tjenester</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id cursus libero. Fusce tincidunt in ligula ac fermentum. Quisque porttitor tellus vulputate diam venenatis malesuada. Ut scelerisque, massa id auctor ullamcorper, purus mauris tincidunt velit, quis varius enim ipsum sed risus. Nunc eget lorem odio. Cras congue nulla orci, eu gravida dolor hendrerit a. In efficitur rhoncus diam, a sagittis enim volutpat vitae.</p>
+							<img src="img/tjenester-ikon.png">
+							<p>Trenger du et sted å bo? Eller er du bare nysgjerrig på hva skolen har og tilby kan du lese mere om dette her.</p>
 						</div>
 					</div>
 				</a>
 			</div>
-		</div>
 		</div>
 
 		<?php require 'footer.php' ?>

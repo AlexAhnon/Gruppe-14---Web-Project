@@ -4,7 +4,8 @@
 	$port = '8889';
 	$username = 'root';
 	$password = 'root';
+	$host = 'localhost';
 	$database = 'database';
 
-	$connection = new PDO("mysql:host=localhost;dbname={$database};port={$port}", $username, $password);4
+	$connection = new PDO("mysql:host={$host};dbname={$database};port={$port}", $username, $password);
 ?>

@@ -1,3 +1,5 @@
+/** subsection.css inneholder design til de første undersidene
+	til kultur, mat & drikke, helse og tjenester. **/
 #content-wrapper {
 	width: 1250px;
 	margin: 0 auto;
@@ -10,14 +12,15 @@
 	height: 400px;
 	overflow: hidden;
 	border: 2px solid black;
-	margin: 20px;
+	border-radius: 20px;
+	margin: 25px;
+	padding: 10px;
 	float: left;
 }
 
 .content .picture {
 	width: 200px;
 	height: 200px;
-	border: 1px solid #000;
 	float: left;
 	margin-right: 20px;
 }
@@ -42,6 +45,7 @@
 .content h1 {
 	margin-right: 20px;
 	margin-bottom: 0px;
+	text-decoration: underline;
 }
 
 .content p {
