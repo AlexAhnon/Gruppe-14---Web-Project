@@ -5,6 +5,7 @@
 		<title>Westerdals: Campus Fjerdingen - Hjemmeside</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
 	</head>
 	<body>
 		<?php require 'header.php' ?>
