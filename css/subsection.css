@@ -19,7 +19,7 @@
 	margin-left: 50px;
 	padding: 10px;
 	float: left;
-	box-shadow: 10px 10px 5px #888;
+	box-shadow: 10px 10px 5px #888; 
 }
 
 /** Egenskaper til picture-div under content **/
@@ -36,7 +36,7 @@
 .content img {
 	width: 180px;
 	height: 180px;
-	border: 1px solid #000;
+	border: 0.5px solid #000;
 }
 
 /** Egenskaper for les mer knappen **/
