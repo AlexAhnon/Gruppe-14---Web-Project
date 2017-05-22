@@ -23,7 +23,7 @@
 	<body>
 		<?php require 'header.php' ?>
 
-		<h1>Tjenester</h1>
+		<h1>TJENESTER</h1>
 
 		<!-- Lager nye kort for hver select -->
 		<?php foreach ($events as $event) { ?>
