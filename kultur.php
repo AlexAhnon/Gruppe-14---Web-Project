@@ -31,10 +31,10 @@
 		<!-- Start av content -->
 		<div id="content-wrapper">
 			<div class="content">
-				<div class="picture"><img src="<?= $event[image_path] ?>"></div>
+				<div class="picture"><img src="<?= $event[image_path] ?>" alt="Steds bildet"></div>
 					<h2><?= $event[title] ?></h2>
 					<p><?= $event[infotext] ?></p>
-				<div class="read"><a href="kultur_sub.php?id=<?= $event[id] ?>">Les mer...</a></div>
+				<div class="read"><a href="kultur_sub.php?id=<?= $event[id] ?>">Les mer &#10140;</a></div>
 			</div>
 		</div>
 

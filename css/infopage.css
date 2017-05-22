@@ -43,9 +43,22 @@
 }
 
 /** Ekstra formatering **/
-.extra p {
+#content-wrapper .extra p {
 	text-align: left;
 	font-size: 22px;
+}
+
+#content-wrapper a, a:active {
+	text-decoration: underline;
+}
+
+#content-wrapper a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+#content-wrapper .extra .return {
+	font-size: 42px;
 }
 
 #content-wrapper h1 {

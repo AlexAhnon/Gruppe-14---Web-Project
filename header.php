@@ -12,7 +12,7 @@
 		<div class="bar3"></div>
 	</div>
 	<button>MENY</button>
-	<ul id ="myDropdown" class="dropdown-menu">
+	<ul id="myDropdown" class="dropdown-menu">
 		<li><a href="index.php">Hjem</a></li>
 		<li><a href="om-siden.php">Om siden</a></li>
 		<li><a href="kultur.php">Kultur</a></li>
@@ -25,7 +25,7 @@
 <!-- Header div -->
 <a href="index.php">
 	<div id="header">
-		<img src="img/wd_ikon.png">
+		<img src="img/wd_ikon.png" alt="Westerdals ikon">
 		<h1>Nærmiljøet ved Campus Fjerdingen</h1>
 	</div>
 </a>

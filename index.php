@@ -17,7 +17,7 @@
 						<h1>KULTUR</h1>
 						<div class="overlay">
 							<h1>KULTUR</h1>
-							<img src="img/kultur-ikon.png">
+							<img src="img/kultur-ikon.png" alt="Kultur">
 							<p>Her vil dere kunne finne informasjon om kulturskatter i nærområdet til Campus Fjerdingen. Alt fra Kunstutstilling til de kuleste barene i Oslo har og by på. </p>
 						</div>
 					</div>
@@ -27,7 +27,7 @@
 						<h1>MAT & DRIKKE</h1>
 						<div class="overlay">
 							<h1>MAT & DRIKKE</h1>
-							<img src="img/butikk-ikon.png">
+							<img src="img/butikk-ikon.png" alt="Mat og drikke">
 							<p>Campus Fjerdingen ligger i ett mekka for deg som er glad i mat. Her vil dere kunne finne alt fra matbutikker til de mest hippe restaurantene rundt Campusen.</p>
 						</div>
 					</div>
@@ -37,7 +37,7 @@
 						<h1>HELSE</h1>
 						<div class="overlay">
 							<h1>HELSE</h1>
-							<img src="img/helse-ikon.png">
+							<img src="img/helse-ikon.png" alt="Helse">
 							<p>Området rundt Campus byr på et rikt helsetilbud. Om det skulle være legevakten, om du føler for å løfte vekter eller du bare har lyst til å gjøre Yoga i alle parkene som ligger et steinkast unna Campus.</p>
 						</div>
 					</div>
@@ -47,7 +47,7 @@
 						<h1>TJENESTER</h1>
 						<div class="overlay">
 							<h1>TJENESTER</h1>
-							<img src="img/tjenester-ikon.png">
+							<img src="img/tjenester-ikon.png" alt="Tjenester">
 							<p>Trenger du et sted å bo? Eller er du bare nysgjerrig på hva skolen har og tilby kan du lese mere om dette her.</p>
 						</div>
 					</div>
