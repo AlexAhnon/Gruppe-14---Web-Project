@@ -34,7 +34,7 @@
 				<div class="picture"><img src="<?= $event[image_path] ?>" alt="Steds bildet"></div>
 					<h2><?= $event[title] ?></h2>
 					<p><?= $event[infotext] ?></p>
-				<div class="read"><a href="tjenester_sub.php?id=<?= $event[id] ?>">Les mer &#10140;</a></div>
+				<div class="read"><a href="tjenester_sub.php?id=<?= $event[id] ?>">Se kart &#10140;</a></div>
 			</div>
 		</div>
 
