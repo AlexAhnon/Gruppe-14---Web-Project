@@ -5,7 +5,6 @@
 		document.getElementById("myDropdown").classList.toggle("show");
 	}
 </script>
-
 <div class="dropdown" onclick="myFunction (this)">
 	<div class="stripes">
 		<div class="bar1"></div>
@@ -16,11 +15,10 @@
 	<ul id ="myDropdown" class="dropdown-menu">
 		<li><a href="index.php">Hjem</a></li>
 		<li><a href="om-siden.php">Om siden</a></li>
-		<li><a href="http://westerdals.no/">Westerdals</a></li>
 		<li><a href="kultur.php">Kultur</a></li>
-		<li><a href="Nærområder: Kultur">Mat & drikke</a></li>
-		<li><a href="#">Helse</a></li>
-		<li><a href="#">Tjenester</a></li>
+		<li><a href="mat-og-drikke.php">Mat & drikke</a></li>
+		<li><a href="helse.php">Helse</a></li>
+		<li><a href="tjenester.php">Tjenester</a></li>
 	</ul>
 </div>
 

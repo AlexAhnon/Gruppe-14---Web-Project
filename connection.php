@@ -7,5 +7,5 @@
 	$host = 'localhost';
 	$database = 'database';
 
-	$connection = new PDO("mysql:host={$host};dbname={$database};port={$port}", $username, $password);
+	$connection = new PDO("mysql:charset=utf8;host={$host};dbname={$database};port={$port}", $username, $password);
 ?>

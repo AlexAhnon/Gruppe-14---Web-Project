@@ -1,0 +1,55 @@
+/** Wrapper rundt content **/
+#content-wrapper {
+	width: 1200px;
+	height: 700px;
+	border: 0px solid #000;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+/** Egenskaper for div rundt bildet **/
+#content-wrapper .picture {
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 20px;
+	margin-top: 0;
+	border: 1px solid #000;
+	border-radius: 40px;
+	box-shadow: 5px 5px 5px #888;
+}
+
+#content-wrapper img {
+	width: 300px;
+	height: 300px;
+	border-radius: 40px;
+}
+
+/** Google Maps div-wrapper **/
+#content-wrapper .googlemaps {
+	float: right;
+	margin-right: 40px;
+}
+
+/** Wrapper for tekst under bildet **/
+#content-wrapper .extra {
+	width: 300px;
+	position: absolute;
+	top: 550px;
+	margin-left: 20px;
+	margin-top: -20px;
+}
+
+/** Ekstra formatering **/
+.extra p {
+	text-align: left;
+	font-size: 22px;
+}
+
+#content-wrapper h1 {
+	font-size: 4em;
+	margin: 0px;
+	margin-bottom: 10px;
+}

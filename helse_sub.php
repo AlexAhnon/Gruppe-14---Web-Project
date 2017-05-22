@@ -4,7 +4,7 @@
 
 	$id = $_GET['id'];
 
-	$sql = "SELECT * FROM kultur_table WHERE id = {$id}";
+	$sql = "SELECT * FROM helse_sub_table WHERE id = {$id}";
 
 	$events = $connection->query($sql);
 
@@ -15,9 +15,9 @@
 
 <html>
 	<head>
-		<title>Westerdals: Campus Fjerdingen - Test</title>
+		<title>Westerdals: Campus Fjerdingen - <?= $event[title] ?></title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link rel="stylesheet" type="text/css" href="css/subsection.css">
+		<link rel="stylesheet" type="text/css" href="css/infopage.css">
 	</head>
 	<body>
 		<?php require 'header.php' ?>
@@ -25,10 +25,13 @@
 		<!-- Start av content -->
 		<div id="content-wrapper">
 			<div class="content">
+			<h1><?= $event[title] ?></h1>
 				<div class="picture"><img src="<?= $event[image_path] ?>"></div>
-					<h1><?= $event[title] ?></h1>
-					<p><?= $event[infotext] ?></p>
-				<div class="lesmer"><a href="test2.php?id=<?= $event[id] ?>">Les mer...</a></div>
+				<div class="googlemaps"><?= $event[google_maps] ?></div>
+				<div class="extra"><p>
+					<b>Hjemmeside:</b> <a href="<?= $event[homepage_link] ?>" target="_blank">Klikk her</a><br>
+					<b>Lokasjon:</b> <?= $event[location] ?>
+				</p></div>
 			</div>
 		</div>
 

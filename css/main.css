@@ -54,14 +54,17 @@ html, body {
 /** Navigasjons meny egenskaper **/
 .dropdown {
     position: absolute;
+    top: 10px;
     display: inline-block;
     margin: 0 auto;
+    padding-right: 5px;
     margin-left: 400px;
     width: 200px;
 }
 
 .dropdown-menu {
     position: absolute;
+    border: 1px solid #000;
     top: 100%;
     display: none;
     margin: 0;
@@ -97,13 +100,14 @@ html, body {
     display: block;
     padding: 10px;
     text-decoration: none;
-    background: #CCCCCC;
-    color: #333333;
+    background: #fff;
+    color: #000;
+    border-bottom: 1px solid #000;
 }
 
 /** List item hover style **/
 .dropdown a:hover {
-    background: #BBBBBB;
+    background: lightgrey;
 }
 
 /** JavaScript ikon ved siden av meny **/
@@ -115,7 +119,8 @@ html, body {
     width: 35px;
     height: 35px
     background-color: white;
-    margin: 7px 0;
+    margin: 8px;
+    margin-left: 0;
     right: -45px;
 }
 

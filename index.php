@@ -20,7 +20,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="#">
+				<a href="mat-og-drikke.php">
 					<div class="block two">
 						<h1>MAT & DRIKKE</h1>
 						<div class="overlay">
@@ -29,7 +29,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="#">
+				<a href="helse.php">
 					<div class="block three">
 						<h1>HELSE</h1>
 						<div class="overlay">
@@ -38,7 +38,7 @@
 						</div>
 					</div>
 				</a>
-				<a href="#">
+				<a href="tjenester.php">
 					<div class="block four">
 						<h1>TJENESTER</h1>
 						<div class="overlay">
