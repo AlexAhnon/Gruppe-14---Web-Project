@@ -1,9 +1,9 @@
 /** subsection.css inneholder design til de første undersidene
 	til kultur, mat & drikke, helse og tjenester. **/
 
-/** Wrapper rundt content *//
+/** Wrapper rundt content */
 #content-wrapper {
-	width: 1250px;
+	width: 1400px;
 	margin: 0 auto;
 	position: relative;
 }

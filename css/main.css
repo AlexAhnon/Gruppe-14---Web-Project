@@ -29,10 +29,21 @@ a {
 }
 
 #header h1 {
+    position: absolute;
+    display: block;
     font-size: 42px;
     height: 42px;
     font-weight: bold;
-    margin: 0;
+    width: 750px;
+    margin: auto;
+}
+
+#header img {
+    position: relative;
+    float: left;
+    width: 80px;
+    height: 80px;
+    left: -250px;
 }
 
 /** Footer egenskaper **/
@@ -79,7 +90,7 @@ a {
 /** Navigasjons meny egenskaper **/
 .dropdown {
     position: absolute;
-    top: 10px;
+    top: 20px;
     display: inline-block;
     margin: 0 auto;
     padding-right: 5px;

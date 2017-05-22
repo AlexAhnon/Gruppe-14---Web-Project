@@ -25,6 +25,7 @@
 <!-- Header div -->
 <a href="index.php">
 	<div id="header">
+		<img src="img/wd_ikon.png">
 		<h1>Nærmiljøet ved Campus Fjerdingen</h1>
 	</div>
 </a>

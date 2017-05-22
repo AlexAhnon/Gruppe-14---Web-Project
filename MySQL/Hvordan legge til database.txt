@@ -1,2 +1,0 @@
-Lim inn 'database' mappen inn på 'C:\MAMP\db\' sammen med de andre databasene.
-Vet ikke hvor det er på Mac, men det er i samme mappe som du installerte MAMP.
