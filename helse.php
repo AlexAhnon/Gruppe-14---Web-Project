@@ -2,11 +2,11 @@
 <!-- Kobler opp mot databasen for å hente all informasjon fra relevant tabell -->
 <?php
 	$query = $connection->prepare('SELECT * FROM helse_table');
-	$query->execute();
+	events = [];
 
-	$events = [];
+	w$query->execute();
 
-	while($event = $query->fetch(PDO::FETCH_ASSOC)) {
+	$hile($event = $query->fetch(PDO::FETCH_ASSOC)) {
 		$events[] = $event;
 	}
 ?>
@@ -18,6 +18,7 @@
 		<title>Westerdals: Campus Fjerdingen - Helse</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/subsection.css">
+		<link rel="icon" href="img/wd_ikon.png" />
 	</head>
 	<body>
 		<?php require 'header.php' ?>

@@ -18,6 +18,7 @@
 		<title>Westerdals: Campus Fjerdingen - <?= $event[title] ?></title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/infopage.css">
+		<link rel="icon" href="img/wd_ikon.png" />
 	</head>
 	<body>
 		<?php require 'header.php' ?>

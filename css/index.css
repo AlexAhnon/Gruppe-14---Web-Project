@@ -24,15 +24,15 @@
 
 #square .block h1 {
 	position: absolute;
-	width: 225px;
+	width: 246px;
 	height: 40px;
 	line-height: 40px;
+	top: 10px;
 	margin: auto;
-	margin-top: 20px;
-	left: 10px;
 	color: white;
-	border: 2px solid white;
-	background-color: black;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	text-shadow: 2px 2px 4px black, 2px 2px black;
 }
 
 /** Overlay egenskaper når man hoverer over en square **/

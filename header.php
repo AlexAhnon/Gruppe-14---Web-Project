@@ -24,5 +24,7 @@
 
 <!-- Header div -->
 <a href="index.php">
-	<div id="header"></div>
+	<div id="header">
+		<h1>Nærmiljøet ved Campus Fjerdingen</h1>
+	</div>
 </a>

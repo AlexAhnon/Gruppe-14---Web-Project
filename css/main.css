@@ -10,16 +10,29 @@ html, body {
     height: 95%;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /** Header egenskaper **/
 #header {
-	width: 600px;
-	height: 100px;
+	width: 800px;
+	height: 70px;
 	margin: 0 auto;
 	margin-bottom: 15px;
 	margin-top: 15px;
-	background-image: url("../img/test.png");
+    line-height: 70px;
+	/**background-image: url("../img/test.png");
 	background-size: contain;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;**/
+}
+
+#header h1 {
+    font-size: 42px;
+    height: 42px;
+    font-weight: bold;
+    margin: 0;
 }
 
 /** Footer egenskaper **/
@@ -40,15 +53,27 @@ html, body {
 }
 
 #footer .twitter {
-    right: 70px;
+    right: 80px;
 }
 
 #footer .instagram {
-    right: 35px;
+    right: 40px;
 }
 
 #footer .facebook {
     right: 0px;
+}
+
+#footer .twitter, .instagram, .facebook {
+    transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+}
+
+#footer .twitter:hover, .instagram:hover, .facebook:hover {
+    -ms-transform: scale(1.3, 1.3);
+    -webkit-transform: scale(1.3, 1.3);
+    transform: scale(1.3, 1.3);
 }
 
 /** Navigasjons meny egenskaper **/
