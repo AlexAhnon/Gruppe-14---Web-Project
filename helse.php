@@ -2,11 +2,11 @@
 <!-- Kobler opp mot databasen for å hente all informasjon fra relevant tabell -->
 <?php
 	$query = $connection->prepare('SELECT * FROM helse_table');
-	events = [];
+	$query->execute();
 
-	w$query->execute();
+	$events = [];
 
-	$hile($event = $query->fetch(PDO::FETCH_ASSOC)) {
+	while($event = $query->fetch(PDO::FETCH_ASSOC)) {
 		$events[] = $event;
 	}
 ?>

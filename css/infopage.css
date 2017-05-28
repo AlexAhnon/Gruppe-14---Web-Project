@@ -48,6 +48,7 @@
 	font-size: 22px;
 }
 
+/** Egenskaper til lenker **/
 #content-wrapper a, a:active {
 	text-decoration: underline;
 }
@@ -57,10 +58,12 @@
 	text-decoration: underline;
 }
 
+/** Tekst størrelse til tilbake knapp **/
 #content-wrapper .extra .return {
 	font-size: 42px;
 }
 
+/** Egenskaper til tilbake knapp **/
 #content-wrapper h1 {
 	font-size: 4em;
 	margin: 0px;

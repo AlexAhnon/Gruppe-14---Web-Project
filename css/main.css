@@ -94,13 +94,10 @@ a {
 #footer .zoom {
     position: absolute;
     left: 0px;
-    height: 20px;
-    width: 40px;
+    height: 16px;
+    width: 35px;
     font-weight: bold;
     font-size: 16px;
-    transition: opacity 0.2s;
-    -moz-transition: opacity 0.2s;
-    -webkit-transition: opacity 0.2s;
     cursor: pointer;
 }
 
@@ -116,12 +113,12 @@ a {
     height: 80px;
     background-color: white;
     border: 3px solid black;
-    opacity: 0;
+    display: none;
 }
 
 /** Vis hjelpetekst **/
 #footer .zoom:hover .zoom-hover-div {
-    opacity: 1;
+    display: block;
 }
 
 /** Navigasjons meny egenskaper **/
